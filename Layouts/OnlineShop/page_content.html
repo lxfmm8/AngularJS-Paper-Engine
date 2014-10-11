@@ -1,0 +1,31 @@
+<div class="shop-main clear">
+	<div class="header clear">
+		<div class="breadcrumbs">
+		<a href="/">Home &raquo;</a>&nbsp; {tag_cataloguebreadcrumbs}</div>
+	</div>
+	<div class="col-left sidebar" id="store-sidebar" style="display: none;">
+		<div class="block block-layered-nav">
+		    <div class="block-title">
+		        <strong><span>Shop by</span></strong>
+		    </div>
+		    {tag_browsepanel}
+		</div>
+	</div>	
+	<div class="col-main">
+		<div class="page-title category-title">
+		   <h1>
+		       {module_pagename}
+		   </h1>
+		</div>
+		<div class="category-products">
+			<div class="products-list products-grid">
+			{tag_productlist,4,,,,,true}
+			</div>
+		</div>
+	</div>
+	<div class="body clear">  </div>
+	<div class="footer clear">{tag_previouspage,<img alt="" src="/CatalystImages/module_previous.png" />} {tag_nextpage,<img alt="" src="/CatalystImages/module_next.png" />} <br />
+	<br />
+		{tag_pagination}
+	</div>
+</div>
